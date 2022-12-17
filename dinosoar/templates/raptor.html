@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% load dinotags %}
+{% block content %}
+
+Implementing Custom Tags and Filters 9
+<h1>Velociraptor</h1>
+<p>
+    The Velociraptor (swift seizer) was made famous by their appearance
+    in the movie <i>Jurassic Park</i>. 
+</p>
+<p>
+    The first letters of our dinosaur variable are {{dinosaurs|first_letters}}.
+</p>
+{% endblock content %}
